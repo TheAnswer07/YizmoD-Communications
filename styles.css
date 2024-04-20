@@ -2,6 +2,11 @@
     flex: auto;
 }
 
-nav .img {
-    
+nav {
+    background-color: rgb(51, 51, 119);
+    color: white;
+    padding: 100px 15px 10px;
+}
+nav h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
