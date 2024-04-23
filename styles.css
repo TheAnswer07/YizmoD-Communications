@@ -1,22 +1,21 @@
-
-.nav-box {
-    display: flex;
-    background-color: rgb(15, 88, 136);
-    color: white;
-    padding: 15px;
-    /* justify-content: flex-end; */
-    align-items: center;
+nav {
+    background-color: rgb(57, 57, 128);
+    padding: 1rem;
 }
 
-
 nav img {
-height: 60px;
-/* justify-content: left; */
+    height: 40px;
 }
 
 nav button {
-    /* justify-content: flex-end; */
-    height: 40px;
-    align-items: flex-end;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(59, 149, 137);
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+}
