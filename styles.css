@@ -27,3 +27,13 @@ nav button, footer button {
     align-items: center;
 }
 
+.container p {
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    padding: 20px;
+    align-content: center;
+}
+
+/* #box3 {
+    align-self: center;
+} */
