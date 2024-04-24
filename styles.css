@@ -32,8 +32,5 @@ nav button, footer button {
     font-size: larger;
     padding: 20px;
     align-content: center;
+    text-align: center;
 }
-
-/* #box3 {
-    align-self: center;
-} */
