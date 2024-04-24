@@ -20,14 +20,14 @@ nav button, footer button {
     background-color: rgb(59, 149, 137);
 }
 
-.container {
+.box-container {
     display: flex;
     flex-direction: row;
     /* border: 10px solid black; */
     align-items: center;
 }
 
-.container p {
+.box-container p {
     color: rgb(0, 0, 0);
     font-size: larger;
     padding: 20px;
