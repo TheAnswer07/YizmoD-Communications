@@ -22,9 +22,10 @@ nav button, footer button {
 
 .box-container {
     display: flex;
-    flex-direction: row;
-    /* border: 10px solid black; */
+    border: 5px solid black;
     align-items: center;
+    justify-content: center;
+
 }
 
 .box-container p {
