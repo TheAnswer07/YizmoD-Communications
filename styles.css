@@ -22,7 +22,7 @@ nav button, footer button {
 
 .box-container {
     display: flex;
-    border: 5px solid black;
+    /* border: 5px solid black; */
     align-items: center;
     justify-content: center;
     flex-direction: row;
@@ -57,12 +57,12 @@ nav button, footer button {
     background-repeat: no-repeat;
     height: 80vh;
     border-radius: 50px;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
     flex: 0.5;
     margin: 10px;
     position: relative;
-    transition: flex 0.4s ease-in;
+    transition: flex 0.2s ease-in;
 }
 
 .panel h3 {
@@ -80,7 +80,7 @@ nav button, footer button {
 
 .panel.active h3 {
     opacity: 1;
-    transition: opacity 0.3s ease-in 0.4s;
+    transition: opacity 0.2s ease-in 0.2s;
 }
 
 @media(max-width: 480px) {
