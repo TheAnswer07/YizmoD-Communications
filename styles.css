@@ -25,6 +25,7 @@ nav button, footer button {
     border: 5px solid black;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
 
 }
 
@@ -34,4 +35,12 @@ nav button, footer button {
     padding: 20px;
     align-content: center;
     text-align: center;
+}
+
+#box2 {
+    align-self: flex-end;
+}
+
+#box1 {
+    align-self: flex-start;
 }
