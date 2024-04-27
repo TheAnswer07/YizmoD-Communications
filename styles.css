@@ -16,8 +16,9 @@ nav button, footer button {
     color: white;
     padding: 10px;
     font-weight: bold;
-    border-radius: 10px;
-    background-color: rgb(59, 149, 137);
+    background-color: rgb(102, 102, 184);
+    /* border-radius: 10px; */
+    /* background-color: rgb(59, 149, 137); */
 }
 
 .box-container {
@@ -57,12 +58,12 @@ nav button, footer button {
     background-repeat: no-repeat;
     height: 80vh;
     border-radius: 50px;
-    color: rgb(0, 0, 0);
+    color: white;
     cursor: pointer;
     flex: 0.5;
     margin: 10px;
     position: relative;
-    transition: flex 0.2s ease-in;
+    transition: flex 0.3s ease-in;
 }
 
 .panel h3 {
@@ -80,7 +81,7 @@ nav button, footer button {
 
 .panel.active h3 {
     opacity: 1;
-    transition: opacity 0.2s ease-in 0.2s;
+    transition: opacity 0.3s ease-in 0.3s;
 }
 
 @media(max-width: 480px) {
