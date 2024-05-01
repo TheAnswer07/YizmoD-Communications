@@ -5,12 +5,11 @@
 body {
     display: flex;
     flex-direction: column;
-    line-height: 1.3;
+    line-height: 1.7;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header,
-footer {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,20 +18,29 @@ footer {
     color: #fff;
 }
 
-footer {
-    flex-direction: column;
-}
 
 header img {
     height: 50px;
 }
 
-footer button {
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    background-color: rgb(57, 57, 128);
+    color: #fff;
+}
+
+button {
     color: white;
-    padding: 10px;
+    width: 50%;
+    margin-top: 7%;
     font-weight: bold;
     background-color: rgb(59, 149, 137);
+    width: 100%;
+    border-radius: 1em;
 }
+
 
 h1 {
     font-size: 200%;
@@ -83,15 +91,8 @@ article p {
 }
 
 article img {
-    /* display: flex;
-    margin: 2% 0;
-    padding: 0; */
- 
-    /* height: 2000px; */
     border-radius: 10px;
     margin: 10px;
-   
-    
 }
 
 article ul {
@@ -106,23 +107,14 @@ aside {
 
 aside h2 {
     display: flex;
-    font-size: 150%;
+    font-size: 200%;
     justify-content: center;
 }
 
-input,
-button {
-    width: 100%;
+input {
+    width: 97%;
     margin: 2% 0;
     padding: 1%;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    padding: 2%;
-    background-color: rgb(57, 57, 128);
-    color: #fff;
 }
 
 article img {
@@ -130,30 +122,6 @@ article img {
     width: auto;
     height: auto;
   }
-
-.resources .links {
-    display: none;
-    padding: 1% 0;
-}
-
-.resources:hover .links {
-    display: block;
-}
-
-.resources h3 {
-    font-size: 150%;
-}
-
-.links a {
-    color: #772014;
-    text-decoration: none;
-}
-
-.links a:hover {
-    text-decoration: underline;
-}
-
-
 
 .container {
     display: flex;
