@@ -91,7 +91,10 @@ article p {
 }
 
 article img {
-    border-radius: 10px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
     margin: 10px;
 }
 
@@ -117,12 +120,6 @@ input {
     padding: 1%;
 }
 
-article img {
-    max-width: 100%;
-    width: auto;
-    height: auto;
-  }
-
 .container {
     display: flex;
     width: 90vw;
@@ -133,7 +130,7 @@ article img {
     background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
-    border-radius: 50px;
+    border-radius: 20px;
     color: rgb(255, 254, 254);
     cursor: pointer;
     flex: 0.5;
@@ -152,11 +149,11 @@ article img {
 }
 
 .panel.active {
-    flex: 5;
+    flex: 13;
 }
 
 .panel.active h3 {
-    opacity: 1;
+    /* opacity: 1; */
     transition: opacity 0.3s ease-in 0.3s;
 }
 
