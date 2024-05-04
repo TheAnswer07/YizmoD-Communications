@@ -20,7 +20,8 @@ header {
 
 
 header img {
-    height: 50px;
+    height: 55px;
+    margin-left: 75%;
 }
 
 footer {
@@ -44,10 +45,11 @@ button {
 
 h1 {
     font-size: 180%;
+    margin-right: 20%;
 }
 
 h2 {
-    margin: 2% 0;
+    margin: 2%;
     font-size: 180%;
 }
 
@@ -56,9 +58,10 @@ h3 {
     font-size: 150%;
 }
 
+
 nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     min-width: 300px;
     list-style-type: none;
 }
@@ -66,7 +69,7 @@ nav ul {
 nav li {
     display: flex;
     padding: 1rem;
-
+    
 }
 
 nav a {
@@ -82,7 +85,7 @@ nav a:hover {
 main {
     display: flex;
     max-width: 1200px;
-    margin: 5%;
+    margin: 4%;
     flex-direction: column;
 }
 
@@ -91,7 +94,7 @@ section {
 }
 
 article p {
-    margin: 2% 0;
+    margin: 2%;
     font-size: 110%;
 }
 
