@@ -1,6 +1,6 @@
-/* * {
-    margin: 0 auto;
-} */
+* {
+    margin: 0;
+}
 
 body {
     display: flex;
@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
+    padding: 2%;
     background-color: rgb(57, 57, 128);
     color: #fff;
 }
@@ -43,12 +43,17 @@ button {
 
 
 h1 {
-    font-size: 200%;
+    font-size: 180%;
 }
 
 h2 {
     margin: 2% 0;
-    font-size: 200%;
+    font-size: 180%;
+}
+
+h3 {
+    margin: 2% auto;
+    font-size: 150%;
 }
 
 nav ul {
