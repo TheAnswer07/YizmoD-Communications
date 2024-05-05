@@ -1,3 +1,10 @@
+:root {
+    --darkBlue: rgb(30, 30, 108);
+    --white: white;
+    --lightBlue: lightblue;
+    --green: rgb(59, 149, 137);
+}
+
 * {
     margin: 0;
 }
@@ -14,8 +21,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: rgb(57, 57, 128);
-    color: #fff;
+    background-color: var(--darkBlue);
+    color: var(--white);
 }
 
 
@@ -28,16 +35,16 @@ footer {
     display: flex;
     justify-content: center;
     padding: 2%;
-    background-color: rgb(57, 57, 128);
-    color: #fff;
+    background-color: var(--darkBlue);
+    color: var(--white);
 }
 
 button {
-    color: white;
+    color: var(--white);
     width: 50%;
     margin-top: 7%;
     font-weight: bold;
-    background-color: rgb(59, 149, 137);
+    background-color: var(--green);
     width: 100%;
     border-radius: 1em;
 }
@@ -73,13 +80,13 @@ nav li {
 }
 
 nav a {
-    color: white;
+    color: var(--white);
     font-weight: bold;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: lightblue;
+    color: var(--lightBlue);
 }
 
 main {
@@ -139,7 +146,7 @@ input {
     background-repeat: no-repeat;
     height: 80vh;
     border-radius: 20px;
-    color: rgb(255, 254, 254);
+    color: var(--white);
     cursor: pointer;
     flex: 0.5;
     margin: 10px;
